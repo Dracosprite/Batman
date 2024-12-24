@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Bahnschrift light ;
+    
+
+    box-sizing: border-box;
+}
+
+html,body{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(5, 5, 101, 0.849);
+}
+
+.mass{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.img{
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    left: 60%;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51eed906e4b0953024980af9/1412011457584-XTBPBFAW41MF5LR6J836/Bei-Kuo-SS15-Collection-New-York-Fashion-Week-3.jpg?format=1500w);
+    background-size: cover;
+   background-position: center;
+}
+.box{
+    border-radius: 50%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    transform: translate(-50%,0%);
+    background-color: red;
+    top: 50%;
+    
+}
+.box i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.ani{
+    right: 0%;
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: blueviolet;
+    
+}
+.up{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.down{
+    position: absolute;
+    display: flex;
+    
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+.up i{
+    position: absolute;
+    transform: translate(-50%,-0%);
+    left: 50%;
+    top: 10%;
+    color: white;
+}
+.ni{
+    
+    font-family:Bahnschrift light ;
+    
+    position: absolute;
+    
+    left: 0%;
+    bottom: 20%;
+    letter-spacing: 40px;
+  
+ 
+
+    font-size: 140px;
+
+}
+.ke{
+    font-family:Bahnschrift light ;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    font-size: 140px;
+    letter-spacing: 40px;
+}
+
+.mass img{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    left: 3%;
+}
+.mens{
+    position: absolute;
+    width:10%;
+    height:10%;
+    left: 30%;
+    top: 5%;
+
+}
+.womens{
+    position: absolute;
+    width:10%;
+    height:10%;
+    left: 40%;
+    top: 5%;
+
+
+}

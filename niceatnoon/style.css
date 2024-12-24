@@ -1,0 +1,244 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav h3 {
+    font-family: suyash;
+    font-size: 40px;
+
+}
+
+nav svg {
+    width: 60px;
+}
+
+@font-face {
+    font-family: suyash;
+    src: url(./64eda5e5fdd71ddd3dbbf609_apercu-regular.woff2);
+}
+
+@font-face {
+    font-family: ani;
+    src: url(./6479b994523a6279a03d4da7_Siaga-Bold.woff2);
+}
+
+.btn button {
+    background-color: transparent;
+    border: black 1px solid;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: suyash;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.5s ease;
+
+
+}
+
+.btn button.yoyo {
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 50px;
+
+}
+
+.btn button:hover {
+    background-color: black;
+    color: white;
+}
+
+.mid h1 {
+
+    font-size: 120px;
+    font-family: suyash;
+    line-height: 1;
+}
+
+.para {
+    display: flex;
+}
+
+.para svg {
+    width: 60px;
+    margin-top: 30px;
+}
+
+.mid {
+    padding: 43px 50px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    padding: 13px 50px;
+
+}
+.right p{
+    font-size: 20px;
+    font-family: suyash;
+    margin-top: 10px;
+  
+}
+.right button {
+    position: relative;
+   margin-top: 10px;
+   background-color: transparent;
+   border: black 1px solid;
+   padding: 10px;
+   color: black;
+   border-radius: 10px;
+   font-size: 20px;
+   
+   cursor: pointer;
+   margin-right: 20px;
+   transition: all 0.5s ease;
+}
+.right button::after{
+    background-color: black;
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+    width: 0%;
+    height: 2px;
+   
+    transition: all 0.5s ease-in-out;
+}
+.right button:hover::after{
+
+   width: 80%;
+}
+.images{
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+
+    
+}
+.images img{
+    width: 500px;
+    height: 700px;
+    border-radius: 190px;
+    transition: all 0.5s ease-in-out;
+    object-fit: cover   ;
+}
+.chandra p{
+    font-family: suyash;
+    font-size: 30px;
+    padding: 43px 50px;
+}
+.chandra button {
+    position: relative;
+   margin-left: 43px;
+   background-color: transparent;
+   border: black 1px solid;
+   padding: 10px;
+   color: black;
+   border-radius: 10px;
+   font-size: 20px;
+   
+   cursor: pointer;
+   margin-right: 20px;
+   transition: all 0.5s ease;
+}
+.chandra button::after{
+    background-color: black;
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+    width: 0%;
+    height: 2px;
+   
+    transition: all 0.5s ease-in-out;
+}
+.chandra button:hover::after{
+
+   width: 80%;
+}
+.shubam{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.shubam h4{
+   
+    font-family: suyash;
+    padding: 100px 0px;
+}
+.shubam h2{
+   text-align: center;
+    font-family: suyash;
+    font-size: 200px;
+}
+.realme{ 
+    position: absolute;
+    background-color: yellow;
+    padding: 30px;
+    font-family: suyash;
+    font-size: 20px;
+    border-radius: 30px;
+    left: 60%;
+    top: 85%;
+    rotate: -20deg;
+}
+.shubam button {
+    position: relative;
+   margin-left: 85%;
+   background-color: transparent;
+   border: black 1px solid;
+   padding: 10px;
+   color: black;
+   border-radius: 10px;
+   font-size: 20px;
+   
+   cursor: pointer;
+   margin-right: 20px;
+   transition: all 0.5s ease;
+}
+.shubam button::after{
+    background-color: black;
+    content: '';
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    
+    width: 0%;
+    height: 2px;
+   
+    transition: all 0.5s ease-in-out;
+}
+.shubam button:hover{
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+.shubam button:hover::after{
+
+   width: 80%;
+}
+
